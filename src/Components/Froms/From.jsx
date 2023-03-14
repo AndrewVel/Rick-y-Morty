@@ -28,8 +28,8 @@ export default function Froms() {
   }, [access, history]);
 
   const [from, setFrom] = useState({
-    user: "",
-    pass: "",
+    user: "a@in.com",
+    pass: "andres1",
   });
 
   const [erros, setErros] = useState({
