@@ -1,0 +1,36 @@
+.searchContainer .form {
+  position: absolute;
+  top: 8px;
+  width: fit-content;
+  right: 50px;
+  display: flex;
+  border: 4px solid #08f700;
+  border-radius: 5px;
+}
+.searchContainer input[type="text"] {
+  flex-grow: 1;
+  border-width: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 15px 18px;
+  outline: none;
+}
+.searchContainer button {
+  border-width: 0;
+  padding: 15px 18px;
+  background: #08f700;
+  color: var(--text-color);
+  border: 1px solid #08f700;
+  outline: none;
+}
+.pack {
+  border-width: 0;
+  padding: 15px 18px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px, 0px 0px 5px, 0px 0px 5px, 0px 0px 5px, 0px 0px 5px;
+}
+.pack:hover {
+  box-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black,
+    0px 0px 10px black;
+}

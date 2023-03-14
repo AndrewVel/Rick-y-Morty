@@ -1,0 +1,42 @@
+.navbar {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 0px 0px 25px 25px;
+  height: 70px;
+}
+
+.ContainerSearchBar {
+  margin-top: 8px;
+  height: fit-content;
+}
+ul {
+  font-family: "Chivo Mono", monospace;
+  display: flex;
+  justify-content: space-around;
+  gap: 72px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+
+ul:hover li a {
+  color: #00f314;
+}
+
+ul:hover li a:not(:hover) {
+  color: white;
+  opacity: 0.3;
+  filter: blur(1px);
+}
